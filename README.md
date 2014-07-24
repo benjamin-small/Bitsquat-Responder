@@ -1,10 +1,6 @@
 Bitsquat-Responder
 ==================
 
-# Requires
-
-* dnslib
-
 A quick DNS server to respond to bitsquatted domain requests
 
 The code should be called by xinet.d. An example config is:
@@ -25,3 +21,9 @@ The code should be called by xinet.d. An example config is:
 		}
 
 Values in the squat_config.py file should be updated to reflect the IP and domains you're squatting.
+
+### Requires
+
+* dnslib
+* xinet.d
+
